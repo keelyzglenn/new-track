@@ -18,10 +18,8 @@ $(document).ready(function() {
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track = q1 + q2 + q3 + q4 + q5 ;
     var name = $("input#name").val();
-    var nameInput = name .toUpperCase();
 
-
-    $(".result").text(nameInput);
+    $(".result").text(name);
 
     if (track >= 6 && track <= 9) {
       $(".ruby").show();

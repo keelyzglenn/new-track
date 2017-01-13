@@ -2,10 +2,16 @@
 
 .ruby, .java, .cnet {
   display: none;
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+  opacity: .50;
+  color: white;
+  margin: 100px;
 }
 
 body{
-  background-image: url("../img/background.jpg");
+  background-color: white;);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -14,24 +20,28 @@ body{
 }
 .jumbotron {
   text-align: center;
-  background-color: white;
-  margin: 100px;
-  opacity: .75;
-  color: black;
+  background-color: black;
+  margin: 50px;
+  opacity: .55;
+  color: white;
 }
 
 form {
-  background-color: white;
+  background-color: black;
   text-align: center;
-  opacity: .75;
-  color: black;
+  opacity: .55;
+  color: white;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
-.answers{
-  padding: 30px;
-  background-color: white;
-  text-align: center;
-  opacity: .75;
+.question{
+  padding: 10px;
+}
+.radio{
+  font-size: 15px;
+}
+
+#name {
   color: black;
-  margin: 100px;
 }
