@@ -10,6 +10,23 @@ $(document).ready(function() {
     var q3 = parseInt($("input:radio[name=q3]:checked").val());
     var q4 = parseInt($("input:radio[name=q4]:checked").val());
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
-    var track= q1 + q2 + q3 + q4 + q5;
+    var track= q1 + q2 + q3 + q4 + q5 ;
+
+    if (track === 5) {
+      location.href="answers.html";
+      $(".ruby").show();
+    } else if (track === 10) {
+      location.href="answers.html";
+      $(".ruby").show();
+    } else if (track == 15) {
+      location.href="answers.html";
+      $(".ruby").show();
+    } else if (track === 20) {
+      location.href="answers.html";
+      $(".ruby").show();
+    } else if (total===25) {
+      location.href="answers.html";
+      $(".ruby").show();
+    }
   })
 })
