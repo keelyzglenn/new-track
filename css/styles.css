@@ -1,5 +1,37 @@
-
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .ruby, .java, .cnet {
   display: none;
+}
+
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Helvetica;
+}
+.jumbotron {
+  text-align: center;
+  background-color: white;
+  margin: 100px;
+  opacity: .75;
+  color: black;
+}
+
+form {
+  background-color: white;
+  text-align: center;
+  opacity: .75;
+  color: black;
+}
+
+.answers{
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  opacity: .75;
+  color: black;
+  margin: 100px;
 }

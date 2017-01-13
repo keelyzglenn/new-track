@@ -8,159 +8,161 @@
     <title>Track Suggester</title>
   </head>
   <body>
+    <div class="survey">
     <div class="jumbotron">
       <h1>Which programming track is best for you?</h1>
       <p> There are many different options. Each is has its own benefits and draw backs. Ultimately the decision is yours, but here are some questions to help in the decision making process</p>
     </div>
+    <div class="container">
 
+        <form id="track">
+          <!-- name -->
+          <div class="form-group" id="userName">
+            <label for="name">Enter your name:</label>
+            <input id="name" type="text" placeholder="Enter name">
+          </div>
+          <!-- question 1-->
+          <div class="question1">
+            <h2 class="floatme">What kind of company are you most interested in working for?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="1">
+                A large established buisness
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="2" >
+                An enterprise
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="3">
+                A small buisness/ Start-up
+              </label>
+            </div>
+          </div>
 
-    <div class="survey">
-      <form id="track">
-        <div class="form-group" id="userName">
-         <label for="name">Enter your name:</label>
-           <input id="name" class="form-control" type="text">
-       </div>
-<!-- question 1-->
-        <div class="question1">
-          <h2>What kind of company are you most interested in working for?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="1" >
-              A large established buisness
-            </label>
+          <!--question 2-->
+          <div class="question2">
+            <h2 class="floatme">What would you most like to design?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="2">
+                Moblie Apps and Web Applications
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="3">
+                Webpages for companies large and small
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="1">
+                Internal software
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="2" >
-              An enterprise
-            </label>
+          <!-- question 3 -->
+          <div class="question3">
+            <h2 class="floatme">Do you want to learn something that:</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="1">
+                Will provide a solid foundation in programming logic and syntax
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="2">
+                Constantly be evolving
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="3">
+                Isnt too difficult to learn
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q1" value="3">
-              A small buisness/ Start-up
-            </label>
+          <!-- question 4 -->
+          <div class="question4">
+            <h2 class="floatme">Which sounds best?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="2">
+                In demand
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="4">
+                For the long term
+              </label>
+            </div>
           </div>
-        </div>
+          <!-- question 5 -->
+          <div class="question5">
+            <h2 class="floatme">Its <em>all</em> about location</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="1">
+                New York, NY
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="2">
+                Seattle, WA
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="3">
+                San Fransico, CA
+              </label>
+            </div>
+          </div>
 
-<!--question 2-->
-        <div class="question2">
-          <h2>What would you most like to design?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="2">
-              Moblie Apps and Web Applications
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="3">
-              Webpages for companies large and small
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q2" value="1">
-              Internal software
-            </label>
-          </div>
-        </div>
-<!-- question 3 -->
-        <div class="question3">
-          <h2>Do you want to learn something that:</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="1">
-            Will provide a solid foundation in programming logic and syntax
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="2">
-              Constantly be evolving
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q3" value="3">
-              Isnt too difficult to learn
-            </label>
-          </div>
-        </div>
-<!-- question 4 -->
-        <div class="question4">
-          <h2>Which sounds best?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="2">
-              In demand
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q4" value="4">
-              For the long term
-            </label>
-          </div>
-        </div>
-<!-- question 5 -->
-        <div class="question5">
-          <h2>Its <em>all</em> about location</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="1">
-              New York, NY
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="2">
-              Seattle, WA
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="q5" value="3">
-              San Fransico, CA
-            </label>
-          </div>
-        </div>
-<!-- end of questions -->
-<!-- button -->
-        <button type="submit" name="button" class="btn btn-primary">Find out now!</button>
-      </form>
-    </div>
+          <!-- button -->
+          <button type="submit" name="button" class="btn btn-default btn-lg">Find out now!</button>
+        </form>
+      </div>
 
-    <div class="answers">
+      <div class="answers">
 
-<!-- ruby -->
-      <div class="ruby">
-        <p> Hello <span class="result"></span>, based on your results the suggested path for you is.....</p>
+        <!-- ruby -->
+        <div class="ruby">
+          <h2><span class="result"></span>, we highly suggest you check out:</h2>
 
-        <h2>Ruby</h2>
-        <p> Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
-        <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.<em> - Epicoducus</em></p>
+          <h2>Ruby</h2>
+          <p> Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+          <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.<em> - Epicoducus</em></p>
           <p> Check out some more information about this <a href="https://www.epicodus.com/ruby">track!</a></p>
+        </div>
+
+        <!-- C -->
+        <div class="cnet">
+        <h2><span class="result"></span>, we highly suggest you check out:</h2>
+
+          <h2>C#</h2>
+          <p> C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice. <em> - Epicoducus</em>
+            <p> Check out some more information about this <a href="https://www.epicodus.com/c-sharp">track!</a></p>
+          </div>
+
+          <!-- Java -->
+          <div class="java">
+            <h2><span class="result"></span>, we highly suggest you check out:</h2>
+
+            <h2>Java</h2>
+            <p> Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.<em> - Epicoducus</em></p>
+            <p> Check out some more information about this <a href="https://www.epicodus.com/java">track!</a></p>
+          </div>
+
       </div>
-
-<!-- C -->
-      <div class="cnet">
-        <p> Hello <span class="result"></span>, based on your results the suggested path for you is.....</p>
-
-        <h2>C#</h2>
-        <p> C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice. <em> - Epicoducus</em>
-          <p> Check out some more information about this <a href="https://www.epicodus.com/c-sharp">track!</a></p>
-      </div>
-
-<!-- Java -->
-      <div class="java">
-        <p> Hello <span class="result"></span>, based on your results the suggested path for you is.....</p>
-
-        <h2>Java</h2>
-        <p> Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.<em> - Epicoducus</em></p>
-        <p> Check out some more information about this <a href="https://www.epicodus.com/java">track!</a></p>
-      </div>
-
     </div>
   </body>
 </html>

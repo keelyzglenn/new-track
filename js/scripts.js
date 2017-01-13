@@ -17,7 +17,9 @@ $(document).ready(function() {
     var q4 = parseInt($("input:radio[name=q4]:checked").val());
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track = q1 + q2 + q3 + q4 + q5 ;
-    var nameInput = $("input#name").val();
+    var name = $("input#name").val();
+    var nameInput = name .toUpperCase();
+
 
     $(".result").text(nameInput);
 
