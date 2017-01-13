@@ -17,16 +17,16 @@ $(document).ready(function() {
       $(".ruby").show();
     } else if (track === 10) {
       location.href="answers.html";
-      $(".ruby").show();
+      $(".php").show();
     } else if (track == 15) {
       location.href="answers.html";
-      $(".ruby").show();
+      $(".java").show();
     } else if (track === 20) {
       location.href="answers.html";
-      $(".ruby").show();
-    } else if (total===25) {
+      $(".css").show();
+    } else if (total === 25) {
       location.href="answers.html";
-      $(".ruby").show();
+      $(".cnet").show();
     }
   })
 })
