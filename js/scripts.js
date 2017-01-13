@@ -3,7 +3,7 @@
 
 // Frontend
 $(document).ready(function() {
-  $("form").submit(function(event){
+  $("form#track").submit(function(event){
     event.preventDefault();
     var q1 = parseInt($("input:radio[name=q1]:checked").val());
     var q2 = parseInt($("input:radio[name=q2]:checked").val());
@@ -22,5 +22,11 @@ $(document).ready(function() {
       $(".cnet").show();
       location.href="c.html";
     }
+  });
+
+  $("form#userName").submit(function(event) {
+    var name = $("#name").val();
+    var result= "Hello " + name + " " + "based on your answers, your suggested track is...";
+    $(".result").text(result);
   });
 });
