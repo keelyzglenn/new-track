@@ -12,21 +12,14 @@ $(document).ready(function() {
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track= q1 + q2 + q3 + q4 + q5 ;
 
-    if (track === 5) {
-      location.href="answers.html";
+    if (track total >= 5 && <= 8) {
       $(".ruby").show();
-    } else if (track === 10) {
-      location.href="answers.html";
+    } else if (total >= 9 && <= 11) {
       $(".php").show();
-    } else if (track == 15) {
-      location.href="answers.html";
+    } else if (total >= 12 && <= 14) {
       $(".java").show();
-    } else if (track === 20) {
-      location.href="answers.html";
-      $(".css").show();
-    } else if (total === 25) {
-      location.href="answers.html";
+    } else if (total >= 14 && <= 16) {
       $(".cnet").show();
     }
-  })
-})
+  });
+});
