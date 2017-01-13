@@ -14,13 +14,10 @@ $(document).ready(function() {
 
     if (track >= 6 && track <= 9) {
       $(".ruby").show();
-      location.href="ruby.html"
     } else if (track >= 10 && track <= 13) {
       $(".java").show();
-      location.href="java.html";
     } else if (track >= 13 && track <= 16) {
       $(".cnet").show();
-      location.href="c.html";
     }
   });
 
