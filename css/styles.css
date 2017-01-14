@@ -1,33 +1,34 @@
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .ruby, .java, .cnet {
-  display: none;
+  /*display: none;*/
   padding: 30px;
-  background-color: black;
+  background-color: #69656f;
   text-align: center;
   opacity: .50;
   color: white;
-  margin: 100px;
+  margin: 50px;
 }
 
-body{
-  background-color: white;);
+body {
+  background-color: #cebfc4;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   font-family: Helvetica;
 }
+
 .jumbotron {
   text-align: center;
-  background-color: black;
+  background-color: #69656f;
   margin: 50px;
   opacity: .55;
   color: white;
 }
 
 form {
-  background-color: black;
+  background-color: #69656f;
   text-align: center;
   opacity: .55;
   color: white;
@@ -35,14 +36,18 @@ form {
   padding: 20px;
 }
 
-.question{
+.question {
   padding: 10px;
 }
 
-.radio{
+.radio {
   font-size: 15px;
 }
 
 #name {
+  color: black;
+}
+
+a {
   color: black;
 }
