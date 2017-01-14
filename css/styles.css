@@ -1,7 +1,11 @@
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+#name {
+  color: black;
+}
+
 .ruby, .java, .cnet {
-  /*display: none;*/
+  display: none;
   padding: 30px;
   background-color: #69656f;
   text-align: center;
@@ -25,15 +29,7 @@ body {
   margin: 50px;
   opacity: .55;
   color: white;
-}
-
-form {
-  background-color: #69656f;
-  text-align: center;
-  opacity: .55;
-  color: white;
-  margin-bottom: 50px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .question {
@@ -44,8 +40,13 @@ form {
   font-size: 15px;
 }
 
-#name {
-  color: black;
+form {
+  background-color: #69656f;
+  text-align: center;
+  opacity: .55;
+  color: white;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 a {

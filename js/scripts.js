@@ -1,9 +1,5 @@
 // Backend
 
-
-
-
-
 // Frontend
 $(document).ready(function() {
 
