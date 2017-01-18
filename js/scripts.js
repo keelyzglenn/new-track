@@ -2,6 +2,11 @@
 
 // Frontend
 $(document).ready(function() {
+  $(".go").click(function(){
+    $(".intro").fadeOut(function(){
+      $(".question").fadeIn();
+    });
+  });
 
 
   $("form#track").submit(function(event){
@@ -14,6 +19,11 @@ $(document).ready(function() {
     var q5 = parseInt($("input:radio[name=q5]:checked").val());
     var track = q1 + q2 + q3 + q4 + q5 ;
     var name = $("input#name").val();
+
+    // $(".next").click(function() {
+      $(".question").fadeOut(function() {
+        $(".answers").fadeIn();
+      });
 
     $(".result").text(name);
 

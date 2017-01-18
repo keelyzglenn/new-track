@@ -52,3 +52,11 @@ form {
 a {
   color: black;
 }
+
+.question {
+  display: none;
+}
+
+.answers {
+  display: none;
+}
